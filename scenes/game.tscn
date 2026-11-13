@@ -1,5 +1,7 @@
 [gd_scene format=3 uid="uid://d2i1qa2r38dsn"]
 
+[ext_resource type="Script" uid="uid://c5pgwrvc75i8j" path="res://scripts/game.gd" id="1_uwrxv"]
+
 [node name="Game" type="Control" unique_id=1159430474]
 layout_mode = 3
 anchors_preset = 15
@@ -7,6 +9,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_uwrxv")
 
 [node name="EndButton" type="Button" parent="." unique_id=1268712593]
 layout_mode = 1

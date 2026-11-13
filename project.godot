@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="games_now_jam"
-run/main_scene="uid://ci5dmtrqjifyu"
+run/main_scene="uid://dwj571g08vyfb"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
 
