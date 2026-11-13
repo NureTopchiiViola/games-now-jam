@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://bj0rvujogxbx3"]
+
+[ext_resource type="Script" uid="uid://bu2tkph1ry4ys" path="res://scenes/Cards/card_base.gd" id="1_lxihw"]
+
+[node name="CardBase" type="Control" unique_id=1461178886]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 140.0
+offset_bottom = 200.0
+pivot_offset = Vector2(70, 100)
+script = ExtResource("1_lxihw")
