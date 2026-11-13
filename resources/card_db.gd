@@ -1,5 +1,5 @@
 
-enum {
+enum CardID {
 	OneCoin,
 	OneDamage,
 	TwoCoin,
@@ -17,32 +17,32 @@ enum {
 	}
 #Info = [Cost, Value, Description, Consumable, Type]
 const DATA = {
-	OneCoin :
+	CardID.OneCoin :
 		[0, 1, "Coin", false, "Coin"],
-	OneDamage :
+	CardID.OneDamage :
 		[0, 1, "Damage", false, "Damage"],
-	TwoCoin :
+	CardID.TwoCoin :
 		[3, 2, "Coins", false, "Coin"],
-	ThreeCoin :
+	CardID.ThreeCoin :
 		[4, 3, "Coins", false, "Coin"],
-	FourCoin :
+	CardID.FourCoin :
 		[6, 4, "Coins", false, "Coin"],
-	LowDamage :
+	CardID.LowDamage :
 		[2, 3, "Damage", false, "Damage"],
-	MidDamage :
+	CardID.MidDamage :
 		[3, 5, "Damage", false, "Damage"],
-	HighDamage :
+	CardID.HighDamage :
 		[5, 10, "Damage", false, "Damage"],
-	DoubleAttack :
+	CardID.DoubleAttack :
 		[3, 0, "Double the next attack", false, "Effect"],
-	DeleteCard :
+	CardID.DeleteCard :
 		[5, 0, "Destroy this card and the one behind it", true, "Effect"],
-	Heal :
+	CardID.Heal :
 		[3, 5, "Destroy this card and heal 5", true, "Effect"],
-	DrawCard :
+	CardID.DrawCard :
 		[2, 1, "Draw 1 card", false, "Effect"],
-	RefreshShop :
+	CardID.RefreshShop :
 		[4, 1, "Destroy this card and refresh shop", true, "Effect"],
-	Rewind :
+	CardID.Rewind :
 		[5, 1, "Destroy this card and put the top card back in hand", true, "Effect"],
 }
