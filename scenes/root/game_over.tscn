@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://8y6n6drx0w4j"]
 
-[ext_resource type="Script" uid="uid://bpwnal4k5i36d" path="res://scripts/game_over.gd" id="1_xeevv"]
+[ext_resource type="Script" uid="uid://bpwnal4k5i36d" path="res://scenes/root/game_over.gd" id="1_av8er"]
 
 [node name="GameOver" type="Control" unique_id=1312016712]
 layout_mode = 3
@@ -9,7 +9,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_xeevv")
+script = ExtResource("1_av8er")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1984527072]
 layout_mode = 1
