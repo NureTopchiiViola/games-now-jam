@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://ci5dmtrqjifyu"]
 
-[ext_resource type="Script" uid="uid://cv3xx5neikekg" path="res://start_button.gd" id="1_ncxyx"]
+[ext_resource type="Script" uid="uid://cv3xx5neikekg" path="res://scripts/start_button.gd" id="1_tx5wa"]
 
 [node name="Start screen" type="Control" unique_id=571898033]
 layout_mode = 3
@@ -17,6 +17,6 @@ offset_top = 484.0
 offset_right = 668.0
 offset_bottom = 541.0
 text = "i am button"
-script = ExtResource("1_ncxyx")
+script = ExtResource("1_tx5wa")
 
 [connection signal="pressed" from="Start Button" to="Start Button" method="_on_pressed"]
